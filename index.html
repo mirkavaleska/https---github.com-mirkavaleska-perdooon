@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorry by tu bro</title>
+    <style>
+      .body {
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+      }
+  
+      .body__title {
+        color: rgb(2, 0, 0);
+      }
+  
+      .body__img {
+        width: 100%;
+        max-width: 512px;
+        
+      }
+    </style>
+    
+</head>
+
+<body class="body">
+  <h1 class="body__title">💖Me perdonaaas BROOOO💖</h1>
+  <img src="https://i.pinimg.com/originals/00/66/1b/00661b5f25427f7eb5bd0238d7dfad7a.gif" alt="perdoon" class="body__img" />
+  <br>
+  <button id="yes">sii </button>
+  <button id="no">😭No😭</button>
+
+    <script>
+        const vuttonSi = document.getElementById('yes');
+        const vuttonNo = document.getElementById('no');
+
+        const Yeeeei = () => {
+      alert('💞claramente siiii 💞');
+      alert('🌸tqm y de nuevo perdoooon🌸 ');
+      location.href = 'https://www.youtube.com/watch?v=XUr6cwKxt34';
+    };
+
+    const Nounono = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', Yeeeei);
+    vuttonNo.addEventListener('mouseover', Nounono);
+    </script>
+    </body>
+    
+</html>
